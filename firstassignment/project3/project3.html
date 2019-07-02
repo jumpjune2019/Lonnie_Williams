@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Project 3</title>
+	<script src = "nations.js"></script></head>
+	
+	<body>
+    <div>
+         <h1>Project 3 Demo</h1>
+
+
+<form action="/my-handling-form-page" method="post">
+  <div>
+    <label for="Username">Username:</label>
+    <input type="text" id="username" name="user_name">
+  </div>
+
+  <br/>
+	<div>
+    <label for="City">City:</label>
+    <input type="text" id="city" name="user_city">
+  </div>
+		
+	<br/>		
+	<div>       <label for="country">Country:  </label>
+			<select id="country" name="country"></select></div>
+
+	<br/><div>       <label for="country">State:  </label>
+			<select id="state" name="state"></select></div>
+			
+	<script language="javascript">
+            populateCountries("country", "state"); </script>
+        <br/>
+		<br/>
+		</div>
+	
+	 <div>
+    <label for="zip">Zip Code:</label>
+	<input id="zip" name="zip" type="text" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$">
+	</div>
+	
+	 <div>
+    <label for="City">Hobby:</label>
+    <input type="hobby" id="hobby" name="user_hobby"><br/>
+  	</div>
+     
+	 <div class="button">
+    <button type="Reset">Reset</button>
+ 	 </div>
+	
+	<div class="button">
+    <button type="Submit">Submit</button>
+ 	 </div>
+
+	</form>
+	</body>
+</html>
