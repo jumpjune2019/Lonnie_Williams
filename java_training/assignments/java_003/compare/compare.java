@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
  
-public class CompareTextFiles
+public class compare
 {   
     public static void main(String[] args) throws IOException
     {   
