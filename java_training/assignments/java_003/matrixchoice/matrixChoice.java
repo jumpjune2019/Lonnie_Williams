@@ -58,7 +58,7 @@ public class matrixChoice {
 		diceLabels[5][1] = "Easy eight";
 		diceLabels[5][2] = "Nina from Pasadena";
 		diceLabels[5][3] = "Big one on the road";
-		diceLabels[5][4] = "Yo";
+		diceLabels[5][4] = "Yo          ";
 		diceLabels[5][5] = "Midnight";
 		
 		
@@ -95,7 +95,7 @@ public class matrixChoice {
 		//print line 6
 		System.out.print("Die 6 \t" + diceLabels[5][0] + "\t" + diceLabels[5][1] + "\t\t"); 
 		System.out.print(diceLabels[5][2] + "\t" + diceLabels[5][3] + "\t" + diceLabels[5][4]); 
-		System.out.println("\t\t\t" + diceLabels[5][5]);
+		System.out.println("\t\t" + diceLabels[5][5]);
 		
 	}
 
