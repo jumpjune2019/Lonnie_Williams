@@ -1,3 +1,4 @@
+
 import java.awt.Container;
 import java.awt.GridLayout;
 import javax.swing.JButton;
@@ -8,7 +9,7 @@ public class GridLayoutChallenge extends JFrame {
   public static void main(String[] args) {
     int rows = 10;
     int cols = 10;
-	GridLayoutChallenge gt = new GridLayoutChallenge(rows, cols);
+    GridLayoutChallenge gt = new GridLayoutChallenge(rows, cols);
     gt.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     gt.pack();
     gt.setVisible(true);
